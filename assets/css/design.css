@@ -14,3 +14,9 @@ body {
   color: #DDFFF7;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+
+.center-container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
