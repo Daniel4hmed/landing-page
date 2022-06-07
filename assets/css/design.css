@@ -25,14 +25,16 @@ body {
   width: 100%;
   padding: 0px 20px;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.navigation-container h1, .navigation-container ul, .navigation-container > a {
+.navigation-container h1, .navigation-container ul, .hire-container {
   flex: 1;
 }
 
-.navigation-container > a {
-  text-align: right;
+.hire-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navigation-container ul {
@@ -49,5 +51,16 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: 2px;
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  min-width: 75px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: #2F2F2F;
 }
