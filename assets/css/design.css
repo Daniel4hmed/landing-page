@@ -10,12 +10,19 @@ body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 /* Generic Styling */
 .center-container {
   width: 95%;
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.accent-text {color: #2F2F2F;}
 
 /* Button */
 .button {
@@ -68,12 +75,13 @@ body {
   font-weight: 500;
 }
 
+/* Hero */
 .hero-container {
   display: flex;
   align-items: center;
   height: 65vh;
   padding: 0px 20px;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   gap: 2rem;
 }
 
@@ -83,11 +91,6 @@ body {
 
 .hero-image {
   overflow: hidden;
-}
-
-.hero-image img {
-  display: block;
-  width: 100%;
 }
 
 .hero-content {
@@ -104,4 +107,38 @@ body {
   font-weight: 700;
 }
 
-.accent-text {color: #2F2F2F;}
+/* Portfolio */
+.portfolio {
+  padding: 6rem 0;
+  background-color: #FFF;
+  color: #2F2F2F;
+}
+
+.portfolio h2 {
+  margin-bottom: 3rem;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  flex-grow: 1;
+  min-width: 350px;
+}
+
+.card-header {
+  padding: 1rem 0;
+}
+
+.card-content {
+  width: 100%;
+  overflow: hidden;
+}
