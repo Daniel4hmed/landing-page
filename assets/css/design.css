@@ -15,6 +15,10 @@ img {
   width: 100%;
 }
 
+button {
+  border: 0;
+}
+
 /* Generic Styling */
 .center-container {
   width: 95%;
@@ -34,6 +38,12 @@ img {
   text-decoration: none;
   background-color: #E3F6F1;
   color: #1F5E4F;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: #3DBB9D;
+  color: #E3F6F1;
 }
 
 /* Navigation */
@@ -114,7 +124,7 @@ img {
   color: #2F2F2F;
 }
 
-.portfolio h2 {
+.portfolio h2, .contact h2 {
   margin-bottom: 3rem;
   font-size: 40px;
   font-weight: 300;
@@ -141,4 +151,24 @@ img {
 .card-content {
   width: 100%;
   overflow: hidden;
+}
+
+/* Contact */
+.contact {
+  padding: 6rem 0;
+  background-color: #EFEFEF;
+  color: #2F2F2F;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form input, form textarea {
+  display: block;
+  padding: 5px;
+  margin-bottom: 1rem;
+  min-width: 350px;
 }
