@@ -26,7 +26,7 @@ button {
   margin: 0 auto;
 }
 
-.accent-text {color: #2F2F2F;}
+.accent-text {color: #1F5E4F;}
 
 /* Button */
 .button {
@@ -171,4 +171,12 @@ form input, form textarea {
   padding: 5px;
   margin-bottom: 1rem;
   min-width: 350px;
+}
+
+.footer {
+  padding: 0.5rem 0;
+}
+
+.footer p {
+  text-align: center;
 }
